@@ -1,0 +1,37 @@
+@charset "utf-8";
+.dis_box{
+  max-width: 400px;
+  margin: 0 auto;
+  color: #666;
+}
+#calculator{
+  box-sizing: border-box;
+  text-align: center;
+}
+input{
+  box-sizing: border-box;
+  width: 96%;
+  height: 5rem;
+  font-size: 1.6rem;
+  text-align: right;
+  color: #fff;
+  padding: 0 0.75rem;
+  background-color: #333;
+}
+button{
+  font-size: 25px;
+  width: 23%;
+  height: 5rem;
+  color: #333;
+  vertical-align: middle;
+  border-color: #fff;
+}
+#width{
+  width: 47%;
+}
+#vrwidth{
+  width: 71.5%;
+}
+button:hover{
+  background-color: #ddd;
+}
